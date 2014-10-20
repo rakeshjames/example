@@ -1,0 +1,6 @@
+name: Drupal 8 custom module example
+type: module
+description: 'Example for Drupal 8 modules.'
+package: Custom
+version: 8.x
+core: 8.x

@@ -1,0 +1,20 @@
+<?php
+/**
+ * @File
+ * Example custom module for Drupal 8.
+ * @author Rakesh James
+ */
+
+/**
+ * Implementing hook_menu().
+ */
+function example_menu() {
+  // The paths given here need to match the ones in example.routing.yml exactly.
+  $items['/mypage/page'] = array(
+    'title' => 'First page',
+    'description' => 'This is a example page.',
+    // The name of the route from example.routing.yml
+    'route' => 'example.my_page',
+  );
+  return $items;
+}
