@@ -1,7 +1,7 @@
 example.my_page:
   path: '/mypage/page'
   defaults:
-    _content: '\Drupal\example\Controller\ExampleController::myPage'
+    _controller: '\Drupal\example\Controller\ExampleController::myPage'
     _title: 'My first page in Drupal8'
   requirements:
     _permission: 'access content'
