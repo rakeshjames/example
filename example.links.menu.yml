@@ -1,0 +1,6 @@
+example.example:
+  title: My Page
+  description: 'My page link'
+  parent: system.admin_structure
+  route_name: example.my_page
+  weight: 100
