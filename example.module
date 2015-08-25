@@ -14,5 +14,9 @@ function example_theme() {
             'variables' => array('url' => NULL),
             'template' => 'field-youtube',
         ),
+        'image_url_formatter' => array(
+            'variables' => array('url' => NULL),
+            'template' => 'field-image-url',
+        ),
     );
 }
