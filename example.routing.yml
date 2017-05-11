@@ -1,5 +1,5 @@
 example.my_page:
-  path: '/mypage/page'
+  path: 'mypage/page'
   defaults:
     _controller: '\Drupal\example\Controller\ExampleController::myPage'
     _title: 'My first page in Drupal8'
